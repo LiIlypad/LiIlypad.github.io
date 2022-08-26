@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <div class ="topBar">
+      <a href="index.html">Home</a>
+      <a href="compSci.html">Back</a>
+    </dvi>
+  </head>
+<body>
+  <div class="projectDescriptionBlock">
+    <div>Fingerprints</div>
+  </div>
+    <div class="projectDescriptionBlock">
+      <div>In the early days of the internet, most sites used an HTTP connection instead of HTTPS. Today, most sites have transitioned to using the more secure HTTPS connection, for many reasons, prime among them being security. User’s information is kept private with HTTPS, and people can’t monitor activity on sites with HTTPS. Also, sites require authentication to prove that they are what they say they are.
+	This authentication comes from certificate authorities, CA’s. These certificates are given to websites that prove to the CA that they are real, and that certificate is used by browsers to authenticate the site. Browsers come installed with a list of all trusted CA’s, and any site that has a certificate from one of those CA’s is deemed safe.
+	Companies and schools who were once able to look into the internet activity of everyone on their servers could no longer do so. Instead, they found a loophole in the system that they use to spy on internet usage without anyone the wiser.
+	When browsers are installed, institutions can add to the list of trusted CA’s. They add a fake CA that is trusted to the browser, but not truly authentic. Then, they can use that to see what users are doing. This HTTPS Proxy Appliance acts as a mirror, showing the user the site they want to see and acting to the site as the user, but blocks all direct interaction between the two. Because the proxy appliance is the one running all interactions, it can see everything and all data used.
+	HTTPS Proxy Appliances are an example of a man in the middle attack, MITM. In this type of attack, every interaction flows through a third party, who can spy and steal information.
+	Unfortunately, this type of attack cannot be truly prevented. It can, however, be detected with the use of a fingerprint.
+	Fingerprints are created by a hashing algorithm. These hashes look at the certificate of a site and give it a unique fingerprint. Any small change in the certificate will be magnified in the hash, to be easily detected. These fingerprints can be checked against the authentic fingerprint of whatever site is being viewed to check if a fake certificate is being used.
+	This system, while it is simple and effective, is imperfect. A test against a fingerprint can come back with the wrong result. For example, when checking the website for a large company, such as Amazon, there can be multiple authentic fingerprints. Many big companies use more than one CA, and therefore have more than one fingerprint. Users checking against a fingerprint from a different server that used a different CA will find different fingerprints and may incorrectly think that their connection was intercepted. Also, some security programs use proxies to scan for malicious content, and that is detected when users check against a fingerprint. They can’t tell if it happened more than once, so the test is then useless.
+	Results can also come back falsely authentic. Proxies don’t have to spy on everything. They may leave some sites alone, leading to a correct fingerprint for that site and an assumption that no interference is happening, but they may just not be monitoring that site. On the other side of this, proxies may alter the authentic fingerprints on whatever site is being used to verify, and they may show the fake ones instead, leading to a false belief that everything is safe.
+	This idea that organizations can hack into supposedly secure connections is terrifying. They can see anything and use it any way they want without anyone the wiser. They can also edit what we see or block it all together, to the point where the use of the internet is widely restricted. This invasion of privacy is just horrible.
+
+
+
+	Works Cited
+
+	Steve Gibson, GIBSON RESEARCH CORPORATION. “GRC :  SSL TLS HTTPS Web Server Certificate Fingerprints  .” GRC | SSL TLS HTTPS Web Server Certificate Fingerprints  , https://www.grc.com/fingerprints.htm.
+	“What Is MITM (Man in the Middle) Attack: Imperva.” Learning Center, 29 Dec. 2019, https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/.
+      Why Use HTTPS? | Cloudflare. https://www.cloudflare.com/learning/ssl/why-use-https/. </div>
+    </div>
+  </body>
+</html>
