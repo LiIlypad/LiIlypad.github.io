@@ -9,9 +9,9 @@ a{
 }
 
 .topBar{
-    width: 100%;
-    height: 7%;
-    background-color: lightgrey;
+    width: 100vw;
+    height: 7vh;
+    background-color: #FDF5E6b0;
     color: black;
     border-bottom: 5px;
     margin-bottom: 5px;
@@ -84,4 +84,8 @@ a{
 .citation{
     margin-left: 3vw;
     text-indent: -3vw;
+}
+
+.gitLink{
+    margin-top: 20vh;
 }
