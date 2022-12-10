@@ -29,6 +29,14 @@
     margin-bottom: 5vh;
 }
 
+.subsubheading{
+    margin-top: 4vh;
+    font-size: clamp(19px, 1.8vw, 33px);
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+
 .paragraph{
     text-indent: 2vw;
     margin-bottom: 1vh;
