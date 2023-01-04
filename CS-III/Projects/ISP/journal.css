@@ -1,0 +1,13 @@
+.date{
+    font-size: clamp(50px, 30vw, 10px);
+    margin-bottom: 3vh;
+}
+
+.subH{
+    font-size: clamp(40px, 28vw, 9px);
+}
+
+.journalPara{
+    font-size: clamp(25px, 25vw, 7px);
+    margin-bottom: 2vh;
+}
